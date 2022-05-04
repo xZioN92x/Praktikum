@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DummyScript : MonoBehaviour
 {
-    private Rigidbody rigidbody;
+    public TestScript testScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        testScript.Test();
         
     }
 
