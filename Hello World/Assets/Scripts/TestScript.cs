@@ -26,6 +26,5 @@ public class TestScript : MonoBehaviour
         Debug.Log("Hello!");
     }
 
-    //test
-  
+    
 }
